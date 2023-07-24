@@ -1,5 +1,6 @@
 *{
     font-family: 'Helvetica';
+    box-sizing: border-box;
 }
 
 
@@ -11,13 +12,14 @@ header h1{
     font-size: 100px;
     font-weight: bold;
     color: khaki;
-    margin: 0 auto;
+    margin: 30px auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
-#brushes{
+.brushes{
     background-color: mediumspringgreen;
 }
 
@@ -25,7 +27,7 @@ header h1{
     font-size: 32px;
     font-weight: bold;
     color: white;
-    margin: 5% auto;
+    margin: 50px auto;
 }
 
 .cost{
@@ -34,10 +36,14 @@ header h1{
     display: inline-block;
 }
 
-#frames{
+.frames{
     background-color: lightcoral;
 }
 
-#paint{
+.paint{
     background-color: skyblue;
+}
+
+p{
+    text-align: justify;
 }
